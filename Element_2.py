@@ -47,9 +47,6 @@ for model_name, model in models.items():
     print(f"{model_name} - MSE: {mse:.2f}")
 
 ##### Selecting the Lowest MSE Results in Most Accurate Handling ######
-
-# Choose the model with the best performance or explore hyperparameter tuning for further improvements
-# Define the hyperparameters to search over
 params_grid = {
     'n_estimators': [100, 200, 300],
     'max_depth': [None, 5, 10]
